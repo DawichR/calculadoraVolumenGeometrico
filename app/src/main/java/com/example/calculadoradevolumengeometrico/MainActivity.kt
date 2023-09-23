@@ -11,10 +11,15 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.main_layout)
 
         val sphereActionBtn = findViewById<Button>(R.id.btnSphere)
+        val cylinderActionBtn = findViewById<Button>(R.id.btnCylinder)
 
         sphereActionBtn.setOnClickListener{
             val intent = Intent(this, SphereActivity::class.java)
+            startActivity(intent)
+        }
 
+        cylinderActionBtn.setOnClickListener{
+            val intent = Intent(this, CylinderActivity::class.java)
             startActivity(intent)
         }
     }

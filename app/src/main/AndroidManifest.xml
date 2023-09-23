@@ -20,6 +20,13 @@
             android:parentActivityName=".MainActivity"
         />
         <activity
+            android:name=".CylinderActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cylinder"
+            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico"
+            android:parentActivityName=".MainActivity"
+        />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

@@ -16,7 +16,7 @@ class SphereActivity : ComponentActivity() {
         val btnCalculateActBtn = findViewById<Button>(R.id.btnCalculateSphere)
         btnCalculateActBtn.setOnClickListener{
             val PI = Math.PI
-            val textFieldRadius = findViewById<EditText>(R.id.txtRadius).text.toString()
+            val textFieldRadius = findViewById<EditText>(R.id.txtHeight).text.toString()
 
             if(textFieldRadius.isNotEmpty()){
                 val radius = textFieldRadius.toDouble()

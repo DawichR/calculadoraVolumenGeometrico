@@ -19,8 +19,21 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
-            android:background="#2196F3"
+            android:background="@color/btn_bg_primary"
             android:text="Esfera"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textColorHint="#E8E4E4"
+            android:textColorLink="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCylinder"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:background="@color/btn_bg_primary"
+            android:text="Cilindro"
             android:textAlignment="center"
             android:textColor="#FAFAFA"
             android:textColorHint="#E8E4E4"
