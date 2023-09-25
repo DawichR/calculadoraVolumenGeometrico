@@ -38,6 +38,19 @@
             android:textColor="#FAFAFA"
             android:textColorHint="#E8E4E4"
             android:textColorLink="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnCircularCone"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:background="@color/btn_bg_primary"
+            android:text="Cono Circular"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textColorHint="#E8E4E4"
+            android:textColorLink="#FFFFFF" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
