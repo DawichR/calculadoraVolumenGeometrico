@@ -13,19 +13,20 @@
         android:theme="@style/Theme.CalculadoraDeVolumenGeometrico"
         tools:targetApi="31">
         <activity
+            android:name=".ConeCircularActivity"
+            android:exported="false" />
+        <activity
             android:name=".SphereActivity"
             android:exported="false"
             android:label="@string/title_activity_sphere"
-            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico"
             android:parentActivityName=".MainActivity"
-        />
+            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico" />
         <activity
             android:name=".CylinderActivity"
             android:exported="false"
             android:label="@string/title_activity_cylinder"
-            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico"
             android:parentActivityName=".MainActivity"
-        />
+            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
