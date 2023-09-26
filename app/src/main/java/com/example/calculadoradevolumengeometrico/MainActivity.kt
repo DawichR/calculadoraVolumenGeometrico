@@ -10,6 +10,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_layout)
 
+        val prismActionBtn = findViewById<Button>(R.id.btnPrism)
         val sphereActionBtn = findViewById<Button>(R.id.btnSphere)
         val cylinderActionBtn = findViewById<Button>(R.id.btnCylinder)
         val circularActionBtn = findViewById<Button>(R.id.btnCircularCone)
@@ -32,6 +33,11 @@ class MainActivity : ComponentActivity() {
 
         pyramidActionBtn.setOnClickListener{
             val intent = Intent(this, PyramidActivity::class.java)
+            startActivity(intent)
+        }
+
+        prismActionBtn.setOnClickListener {
+            val intent = Intent(this, PrismActivity::class.java)
             startActivity(intent)
         }
 

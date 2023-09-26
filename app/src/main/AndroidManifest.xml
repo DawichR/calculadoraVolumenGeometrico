@@ -13,7 +13,15 @@
         android:theme="@style/Theme.CalculadoraDeVolumenGeometrico"
         tools:targetApi="31">
         <activity
+            android:name=".PrismActivity"
+            android:exported="false"
+            android:label="Volumen del prisma/cubo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico" />
+        <activity
             android:name=".ConeCircularActivity"
+            android:label="Volumen del cono"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SphereActivity"

@@ -8,14 +8,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
         android:orientation="vertical"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
         tools:layout_editor_absoluteX="0dp">
 
         <Button
+            android:id="@+id/btnPrism"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10sp"
+            android:background="@color/btn_bg_primary"
+            android:text="Prisma rectangular/cubo"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textColorHint="#E8E4E4"
+            android:textColorLink="#FFFFFF" />
+
+        <Button
             android:id="@+id/btnSphere"
-            android:layout_width="162dp"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
@@ -28,7 +43,7 @@
 
         <Button
             android:id="@+id/btnCylinder"
-            android:layout_width="162dp"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
@@ -41,7 +56,7 @@
 
         <Button
             android:id="@+id/btnCircularCone"
-            android:layout_width="168dp"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
@@ -54,7 +69,7 @@
 
         <Button
             android:id="@+id/btnPyramid"
-            android:layout_width="168dp"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10sp"
