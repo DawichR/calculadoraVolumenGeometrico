@@ -10,28 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CalculadoraDeVolumenGeometrico"
+        android:theme="@style/Theme.CalculoPiramide"
         tools:targetApi="31">
-        <activity
-            android:name=".ConeCircularActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SphereActivity"
-            android:exported="false"
-            android:label="@string/title_activity_sphere"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico" />
-        <activity
-            android:name=".CylinderActivity"
-            android:exported="false"
-            android:label="@string/title_activity_cylinder"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.CalculadoraDeVolumenGeometrico">
+            android:theme="@style/Theme.CalculoPiramide">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
